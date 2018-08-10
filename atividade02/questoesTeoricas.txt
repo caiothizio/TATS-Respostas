@@ -1,0 +1,34 @@
+- O que é o teste de software? Qual a melhor definição?
+
+R: Teste de software é uma etapa do desenvolvimento de um produto de software, ou parte dele, aonde realizam-se ações de teste do que foi desenvolvido, cuja finalidade é buscar possíveis problemas a serem resolvidos antes da entrega final. Além disso é uma forma de obter um retorno do que foi desenvolvido, de forma a verificar se os requisitos estão sendo contemplados de forma correta ou não.
+
+- O que é teste de unidade, integração e sistema?
+
+R: O teste de unidade é uma prática do teste de software aonde testa-se uma unidade que representa uma pequena parte de um software. Assim, testando todas as unidades do produto, é possível previnir problemas específicos de cada uma delas.
+O teste de integração representa uma prática aonde testa-se a união de unidades para descobrir possíveis problemas de correlação entre as mesmas.
+O teste de sistema representa a prática aonde testa-se o sistema como um todo, com todas as suas integrações.
+
+- O que é um caso de teste? Dê exemplos.
+
+R: Um caso de teste representa um comportamento que as entradas podem tomar dentre um conjunto de comportamentos possíveis. Portanto, cada forma com a qual é possível interagir em um sistema, ou módulo do mesmo, representa um caso de teste. Ex: Testar uma calculadora em situações diferentes: digitar uma expressao matematica normal, digitar letras ao invés de números, realizar uma divisão por zero, etc.
+
+- Qual a diferença entre um teste manual e um teste automatizado?
+
+R: Um teste manual caracteriza-se por um teste realizado por uma pessoa, geralmente o desenvolvedor ou um usuário, de forma manual sem a utilização de procedimentos automatizados como códigos, por exemplo. Um teste automatizado é quando é desenvolvido um código ou um procedimento para realizar um teste, tornando o teste mais automático.
+
+- Explique a diferença entre o teste caixa-branca e o teste caixa-preta.
+
+R: Teste de caixa-branca é um teste realizado em uma aplicação aonde é possível verificar a estrutura do código de forma aberta. O teste de caixa-preta é um teste realizado em uma aplicação aonde não é possível verificar o código.
+
+- O que é um teste de regressão?
+
+R: O teste de regressão representa uma prática aonde, após o desenvolvimento de um novo módulo ou versão de um código, deve-se realizar testes para verificar se existem problemas, tanto no código como nos procedimentos de teste.
+
+- O que é um critério de teste? Cite exemplos.
+
+R: Um critério de teste é um objetivo, ou uma diretriz, que deve ser alcançado para definir que um teste foi realizado de forma correta. Ex: Cobertura de linhas de código (caixa-branca), análise de valores limite (caixa-preta).
+
+Alunos:
+Caio Thizio
+Cintia Nunes
+Dafny Garcia
