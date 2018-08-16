@@ -9,7 +9,7 @@ package tdd01;
  *
  * @author Aluno
  */
-class Proposta {
+public class Proposta {
 
     Proposta(float pTotal, int pNumeroParcelas) {
         total = pTotal;

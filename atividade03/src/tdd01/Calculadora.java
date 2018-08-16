@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Aluno
  */
-class Calculadora {
+public class Calculadora {
 
     public List<Proposta> calcular(float salario, float valorDoEmprestimo) {
         ArrayList<Proposta> propostas = new ArrayList<>();
