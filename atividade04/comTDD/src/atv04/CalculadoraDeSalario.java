@@ -16,6 +16,10 @@ class CalculadoraDeSalario {
             return f.getSalario() >= 3000 ? f.getSalario() * 0.8 : f.getSalario() * 0.9;
         }
         
+        if(f.getCargo().equals("DBA")){
+            return f.getSalario() >= 2000 ? f.getSalario() * 0.75 : f.getSalario() * 0.85;
+        }
+        
         return -1;
     }
     
