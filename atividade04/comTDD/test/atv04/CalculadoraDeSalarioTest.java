@@ -18,13 +18,24 @@ public class CalculadoraDeSalarioTest {
     }
 
     @Test
-    public void testeSalarioDev() {
+    public void testeSalarioDev(){
         Funcionario f = new Funcionario();
         f.setCargo("DESENVOLVEDOR");
-        f.setSalarioBase(5000);
+        f.setSalarioBase(5000f);
         
         CalculadoraDeSalario c = new CalculadoraDeSalario();
         
-        assertEquals(c.calcularSalario(f), 4000.00f, 0.01);
+        assertEquals(4000f, c.calcularSalario(f), 0.01);
+    }
+    
+    @Test
+    public void testeSalarioDBA(){
+        Funcionario f = new Funcionario();
+        f.setCargo("DBA");
+        f.setSalarioBase(4000f);
+        
+        CalculadoraDeSalario c = new CalculadoraDeSalario();
+        
+        assertEquals(3000f, c.calcularSalario(f), 0.01);
     }
 }
