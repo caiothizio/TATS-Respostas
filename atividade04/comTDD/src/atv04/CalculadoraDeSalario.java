@@ -20,7 +20,9 @@ class CalculadoraDeSalario {
             return f.getSalario() >= 2000 ? f.getSalario() * 0.75 : f.getSalario() * 0.85;
         }
         
-        
+        if(f.getCargo().equals("GERENTE")){
+            return f.getSalario() >= 5000 ? f.getSalario() * 0.7 : f.getSalario() * 0.8;
+        }
         
         return -1;
     }
